@@ -1,0 +1,99 @@
+.container_2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 90px;
+    border-bottom: 2px solid rgb(246, 242, 242);
+}
+
+.card_2{
+    color: black;
+    width: 350px;
+    height: 200px;
+    margin-bottom: 150px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+h2{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+}
+
+.position{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px;
+    color: black;
+}
+p{
+    font-size: 16px;
+    margin: 20px;
+    color: black;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 30px;
+    background-color: rgb(51, 134, 251);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.btn a:hover{
+    opacity: 0.95;
+    box-shadow: 5px 5px rgb(242, 215, 215);
+}
+
+
+.details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+
+.role{
+    
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 0px;
+}
+@media screen and (max-width: 1300px){
+    .details{
+        margin-left: 240px;
+        margin-right: 240px;
+    }
+}
+@media screen and (max-width: 992px){
+    .details{
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+}
+
+@media screen and (max-width: 524px){
+    .details{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

@@ -1,0 +1,75 @@
+.Job_container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.Job_card{
+    color: black;
+    width: 500px;
+    height: 100%;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-bottom: 2px solid rgb(0, 140, 255);
+}
+
+h2{
+    font-size: 28px;
+    margin: 5px;
+    margin-top: 0px;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.position{
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px;
+    color: black;
+}
+p{
+    font-size: 16px;
+    margin: 10px;
+    color: black;
+}
+
+.border{
+    margin-top: 12px;
+    border: 0.5px solid rgb(246, 238, 238);
+}
+
+.Details_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+
+.Details_btn p{
+    font-size: 16px;
+    color: rgb(94, 89, 89);
+    margin-top: 12px;
+}
+
+.Details_btn a{
+    text-decoration: none;
+    padding: 10px 24px;
+    color: rgb(19, 46, 224);
+    border-radius: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+} 
+
+.Details_btn a:hover{
+    background-color: rgb(199, 230, 246);
+} 
+
+
+@media screen and (max-width: 524px){
+    .Job_card{
+        margin: 12px;
+        margin-top: 50px;
+    }
+}

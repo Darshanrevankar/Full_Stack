@@ -1,0 +1,120 @@
+.center-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.button-29 {
+    color: white;
+    padding: 15px 60px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+.button-29:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    background-color: aqua;
+    color: rgb(34, 29, 29);
+}
+
+h3 {
+    display: flex;
+    justify-content: center;
+    color: rgb(248, 246, 246);
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    color: white;
+    width: 580px;
+    height: 300px;
+    margin: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+h5 {
+    padding: 10px;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 25px;
+    font-size: 20px;
+    font-weight: 0;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+.delete {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+
+.delete:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    background-color: rgb(248, 22, 22);
+    color: white;
+}
+
+.update {
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid white;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+
+}
+
+.update:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+    background-color: rgb(44, 70, 242);
+    color: white;
+}
+@media ((max-width: 858px)){
+    .card {
+        margin: 30px;
+    }
+}

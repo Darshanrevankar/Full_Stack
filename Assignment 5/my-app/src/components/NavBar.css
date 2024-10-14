@@ -1,0 +1,107 @@
+.main-header {
+    padding: 0 20px;
+    color: black;
+    z-index: 99;
+}
+@media only screen and (min-width: 768px) {
+    .main-header {
+        padding: 0 40px;
+   }
+}
+.main-header .header-context {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+@media only screen and (min-width: 768px) {
+    .main-header .header-context {
+        height: 80px;
+   }
+}
+.main-header .header-context .left {
+    list-style-type: none;
+    display: none;
+    gap: 25px;
+}
+@media only screen and (min-width: 768px) {
+    .main-header .header-context .left {
+        display: flex;
+   }
+}
+.main-header .header-context .left li {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(9, 9, 9);
+    cursor: pointer;
+}
+.main-header .header-context .left li:hover {
+    opacity: 0.4;
+}
+.main-header .header-context .center {
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media only screen and (min-width: 768px) {
+    .main-header .header-context .center {
+        font-size: 34px;
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+   }
+}
+.main-header .header-context .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+@media only screen and (min-width: 768px) {
+    .main-header .header-context .right {
+        gap: 25px;
+   }
+}
+.main-header .header-context .right svg {
+    font-size: 20px;
+    cursor: pointer;
+}
+.main-header .header-context .right img{
+    width: 30%;
+}
+@media only screen and (min-width: 768px) {
+    .main-header .header-context .right svg {
+        font-size: 24px;
+   }
+   .main-header .header-context .right img{
+      display: block;
+}
+}
+.main-header .header-context .right .cart-icon {
+    position: relative;
+}
+@media only screen and (min-width: 768px) {
+    .main-header .header-context .right .cart-icon {
+        display:contents;
+   }
+}
+.main-header .header-context .right .cart-icon span {
+    min-width: 20px;
+    text-align: center;
+    background-color: #8e2de2;
+    padding: 2.5px;
+    position: absolute;
+    top: -5px;
+    right: -12px;
+    font-size: 12px;
+    line-height: 1;
+    border-radius: 10px;
+}
+.bottom-bar-content{
+    border-top: 1px solid rgb(203, 203, 203);
+}

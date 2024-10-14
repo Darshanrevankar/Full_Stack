@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    color: black;
+    width: 320px;
+    height: 620px;
+    margin: 40px;
+    padding: 35px;
+    border-radius: 15px;
+    border: 1px solid black;
+    background: linear-gradient(135deg, rgba(255,255,255,0.1), rgba(255,255,255,0));
+}
+.price{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+.card h2{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.name{
+    color: orange;
+}
+.card p{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+}
+.card button{
+    color: gray;
+    padding: 15px 10px; 
+    display: block;
+    width: 220px;
+    font-size: 15px;
+    text-align: center;
+    margin: 18px;
+    text-decoration: none;
+    border-radius: 15px;
+    border: 1px solid black;
+    margin-top: 38px;
+}
+.bottom-bar{
+    border-top: 1px solid black;
+}
+.color{
+    color: orange;
+    font-size: 22px;
+}
+.color1{
+    color: blue;
+    font-size: 22px;
+}
+.color2{
+    color: rgb(50, 181, 50);
+    font-size: 22px;
+}
+.content{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,134 @@
+.Home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home_card {
+    width: 70%;
+    height: 100%;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.heading h1 {
+    text-align: center;
+    color: black;
+    margin-right: 90px;
+    margin-left: 90px;
+    font-size: 38px;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+span {
+    color: orange;
+}
+
+.details_1 p {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: rgb(102, 99, 99);
+    margin-top: 45px;
+    margin-bottom: 45px;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Home_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.Home_btn ion-icon {
+    margin-right: 5px;
+}
+
+.Home_btn a {
+    padding: 15px 50px;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px 35px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: dodgerblue;
+    color: white;
+    font-weight: 900;
+    border-color: rgb(19, 165, 255);
+    outline: 0;
+    float: left;
+    font-family: monospace;
+}
+
+.Home_btn a:hover {
+    opacity: 0.9;
+    scale: 1.02;
+}
+
+.information_logo {
+    display: flex;
+    justify-content: center;
+}
+
+.information_logo img {
+    width: 90%;
+}
+
+@media screen and (max-width: 992px) {
+    .card {
+        margin: 10px;
+        margin-top: 50px;
+    }
+
+    .heading h1 {
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: 28px;
+        padding: 0px;
+    }
+
+    .details_1 p{
+        font-size: 17px;
+    }
+
+    .information_logo {
+        width: 100%;
+    }
+
+    .Home_btn {
+        flex-direction: row;
+    }
+
+    .Home_btn a {
+        margin: 5px;
+    }
+}
+
+
+@media screen and (max-width: 524px) {
+    .Home_card {
+        width: 100%;
+        margin: 0px;
+        margin-top: 30px;
+    }
+
+    .details_1 p{
+        margin: 0px;
+        margin-bottom: 15px;
+    }
+    .information_logo img{
+        width: 100%;
+    }
+
+    .Home_btn {
+        flex-direction: column;
+    }
+
+    .Home_btn a {
+        margin: 15px 20px;
+    }
+}

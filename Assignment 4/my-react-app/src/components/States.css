@@ -1,0 +1,34 @@
+.card1{
+    color: black;
+    width: 380px;
+    height: 250px;
+    margin: 50px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 10px 5px 5px black;
+}
+.card1 h2{
+    padding: 6px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+.card1 h3{
+    padding: 2px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.card1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+@media (max-width: 858px) {
+    .card1{
+        justify-content: center;
+
+    }
+}
+
+    

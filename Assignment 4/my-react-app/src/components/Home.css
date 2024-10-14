@@ -1,0 +1,77 @@
+.home{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: rgb(250, 245, 245);
+    margin-top: 0;
+    padding-top: 50px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-size: 45px;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+.o{
+    color: orange;
+}
+.w{
+    color:white;
+}
+.g{
+    color:green;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    color: rgb(249, 243, 243);
+    width: 600px;
+    height: 160px;
+    margin-bottom: 40px;
+}
+.card h2{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(252, 251, 251);
+    font-size: 52px;
+}
+.card h3{
+    padding: 2px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(251, 249, 249);
+    font-size: 26px;
+}
+.search_bar {
+    margin: 40px 0;
+    display: flex;
+    margin-top: 150px;
+    padding-bottom: 80px;
+    justify-content: center;
+}
+.search_bar input {
+    width: 300px;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0 10px;
+    font-size: 16px;
+    outline: none;
+    position: absolute;
+}
+.states{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+@media (max-width: 858px) {
+    .search_bar {
+        margin-top: 190px;
+        
+    }
+}
